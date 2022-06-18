@@ -35,7 +35,6 @@ let courses = [
 
 /**
  * Sorted array method:
- * 
  * 1) Lowest to highest
  * 2) highest to Lowest
  * 3) all, usual
@@ -99,5 +98,5 @@ props['card'].forEach((value) => {
 console.log(
 SortedCards({ 
    card:  courses,
-   TypePrices: 'max'
+   TypePrices: 'Max'
 }));
